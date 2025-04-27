@@ -28,11 +28,11 @@ public class ReportingServiceManager extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
+        /*if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
             setAlarm(context);
         } else if (intent.getAction().equals(ACTION_LAUNCH_SERVICE)){
             launchService(context, intent.getBooleanExtra(EXTRA_FORCE, false));
-        }
+        }*/
     }
 
     public static void setAlarm(Context context) {
@@ -84,7 +84,7 @@ public class ReportingServiceManager extends BroadcastReceiver {
 
         Intent intent = new Intent();
         intent.setClass(context, ReportingService.class);
-        context.startServiceAsUser(intent, UserHandle.SYSTEM);
+        //context.startServiceAsUser(intent, UserHandle.SYSTEM);
     }
 
     private static void migrate(Context context, SharedPreferences prefs) {

@@ -64,11 +64,11 @@ public class Utilities {
     }
 
     public static String getDevice() {
-        return SystemProperties.get("ro.lineage.device", Build.PRODUCT);
+        return SystemProperties.get("ro.baikalos.device", Build.PRODUCT);
     }
 
     public static String getModVersion() {
-        return SystemProperties.get("ro.crdroid.build.version", Build.DISPLAY);
+        return SystemProperties.get("ro.baikalos.build.version", Build.DISPLAY);
     }
 
     public static String getBuildDate() {
@@ -76,7 +76,7 @@ public class Utilities {
     }
 
     public static String getAndroidVersion() {
-        return SystemProperties.get("ro.crdroid.version", Build.VERSION.RELEASE);
+        return SystemProperties.get("ro.baikalos.version", Build.VERSION.RELEASE);
     }
 
     public static String getTag() {
@@ -98,8 +98,9 @@ public class Utilities {
      * @return Whether or not stats collection is enabled.
      */
     public static boolean isStatsCollectionEnabled(Context context) {
-        return LineageSettings.Secure.getInt(context.getContentResolver(),
-                LineageSettings.Secure.STATS_COLLECTION, 1) != 0;
+        //return LineageSettings.Secure.getInt(context.getContentResolver(),
+        //        LineageSettings.Secure.STATS_COLLECTION, 1) != 0;
+        return false;
     }
 
     /**

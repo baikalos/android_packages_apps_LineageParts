@@ -166,7 +166,7 @@ public class StatsUploadJobService extends JobService {
     }
 
     private boolean uploadToCrdroid(JSONObject json) throws IOException {
-        final Uri uri = Uri.parse(getString(R.string.stats_crdroid_url));
+        final Uri uri = Uri.parse(getString(R.string.stats_baikalos_url));
         URL url = new URL(uri.toString());
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
         try {
