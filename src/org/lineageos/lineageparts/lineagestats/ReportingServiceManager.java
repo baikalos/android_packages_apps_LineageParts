@@ -28,11 +28,11 @@ public class ReportingServiceManager extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
+        /*if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
             setAlarm(context);
         } else if (intent.getAction().equals(ACTION_LAUNCH_SERVICE)){
             launchService(context, intent.getBooleanExtra(EXTRA_FORCE, false));
-        }
+        }*/
     }
 
     public static void setAlarm(Context context) {
@@ -50,14 +50,14 @@ public class ReportingServiceManager extends BroadcastReceiver {
         }
         long millisFromNow = (lastSynced + UPDATE_INTERVAL) - System.currentTimeMillis();
 
-        Intent intent = new Intent(ACTION_LAUNCH_SERVICE);
+        /*Intent intent = new Intent(ACTION_LAUNCH_SERVICE);
         intent.setClass(context, ReportingServiceManager.class);
 
         AlarmManager alarmManager = context.getSystemService(AlarmManager.class);
         alarmManager.set(AlarmManager.RTC_WAKEUP, System.currentTimeMillis() + millisFromNow,
                 PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_IMMUTABLE));
         Log.d(TAG, "Next sync attempt in : "
-                + (millisFromNow / MILLIS_PER_HOUR) + " hours");
+                + (millisFromNow / MILLIS_PER_HOUR) + " hours");*/
     }
 
     public static void launchService(Context context, boolean force) {
@@ -82,15 +82,15 @@ public class ReportingServiceManager extends BroadcastReceiver {
             }
         }
 
-        Intent intent = new Intent();
+        /*Intent intent = new Intent();
         intent.setClass(context, ReportingService.class);
-        context.startServiceAsUser(intent, UserHandle.SYSTEM);
+        context.startServiceAsUser(intent, UserHandle.SYSTEM);*/
     }
 
     private static void migrate(Context context, SharedPreferences prefs) {
-        Utilities.setStatsCollectionEnabled(context,
+        /*Utilities.setStatsCollectionEnabled(context,
                 prefs.getBoolean(AnonymousStats.ANONYMOUS_OPT_IN, true));
-        prefs.edit().remove(AnonymousStats.ANONYMOUS_OPT_IN).commit();
+        prefs.edit().remove(AnonymousStats.ANONYMOUS_OPT_IN).commit();*/
     }
 
 }
