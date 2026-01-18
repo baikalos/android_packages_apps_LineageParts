@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">ڕێکخستنەکانی crDroid</string>
+    <string name="lineageparts_title">ڕێکخستنەکانی BaikalOS</string>
     <string name="loading">باردەکرێت\u2026</string>
     <string name="dlg_ok">باشە</string>
     <string name="cancel">پاشگەزبوونەوە</string>
@@ -520,7 +520,7 @@
     <string name="trust_feature_security_patches_value_new">نوێیە</string>
     <string name="trust_feature_security_patches_value_medium">چەند مانگێک کۆنە</string>
     <string name="trust_feature_security_patches_value_old">کۆن بووە</string>
-    <string name="trust_feature_security_patches_explain">پارچەکانی پاراستن مانگانە لەلایەن Googleـەوە بە هاوکاری کۆمپانیاکانی دروستکەری پارچە (SoC) بڵاودەکرێنەوە بۆ پڕکردنەوەی ئەو کەلێنانەی کە لەوانەیە لەلایەن بەرنامە زیانبەخشەکانەوە بەکاربهێنرێن بۆ تێپەڕاندنی قەدەغەکردنەکانی پاراستن. ئەو پارچانەی Google بڵاویان دەکاتەوە مانگانە لەسەر هەموو ئامێرە پاڵپشتیکراوەکان جێبەجێ دەکرێن، بەڵام پارچەکانی تایبەت بە کۆدی دروستکەر تەنها لەلایەن کۆمپانیای دروستکەری ئامێرەکەوە دەتوانرێت جێبەجێ بکرێن. بۆ هێشتنەوەی ئامێرەکەت بە پارێزراوی، دڵنیابە کە وەشانی crDroidـەکەت هەمیشە نوێیە.</string>
+    <string name="trust_feature_security_patches_explain">پارچەکانی پاراستن مانگانە لەلایەن Googleـەوە بە هاوکاری کۆمپانیاکانی دروستکەری پارچە (SoC) بڵاودەکرێنەوە بۆ پڕکردنەوەی ئەو کەلێنانەی کە لەوانەیە لەلایەن بەرنامە زیانبەخشەکانەوە بەکاربهێنرێن بۆ تێپەڕاندنی قەدەغەکردنەکانی پاراستن. ئەو پارچانەی Google بڵاویان دەکاتەوە مانگانە لەسەر هەموو ئامێرە پاڵپشتیکراوەکان جێبەجێ دەکرێن، بەڵام پارچەکانی تایبەت بە کۆدی دروستکەر تەنها لەلایەن کۆمپانیای دروستکەری ئامێرەکەوە دەتوانرێت جێبەجێ بکرێن. بۆ هێشتنەوەی ئامێرەکەت بە پارێزراوی، دڵنیابە کە وەشانی BaikalOSـەکەت هەمیشە نوێیە.</string>
     <string name="trust_feature_encryption">کۆدکردن (Encryption)</string>
     <string name="trust_feature_encryption_value_enabled">چالاکە</string>
     <string name="trust_feature_encryption_value_nolock">پێویستی بە قوفڵێکی پارێزراوی ڕوونما هەیە</string>

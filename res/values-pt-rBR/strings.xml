@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Configurações do crDroid</string>
+    <string name="lineageparts_title">Configurações do BaikalOS</string>
     <string name="loading">Carregando\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Cancelar</string>
@@ -515,7 +515,7 @@
     <string name="trust_feature_security_patches_value_new">Atualizado</string>
     <string name="trust_feature_security_patches_value_medium">Desatualizado há alguns meses</string>
     <string name="trust_feature_security_patches_value_old">Desatualizado</string>
-    <string name="trust_feature_security_patches_explain">As atualizações de segurança são lançadas mensalmente pela Google em cooperação com as fabricantes de SoC para corrigir falhas que possam ser exploradas por apps maliciosos que visam burlar as restrições de segurança e causar danos permanentes em seu dispositivo. As atualizações disponibilizadas pela Google são aplicadas mensalmente em todos os dispositivos suportados, mas as atualizações para o código proprietário só podem ser aplicadas pela fabricante do seu dispositivo. Para manter o seu dispositivo seguro, certifique-se de que a sua versão do crDroid esteja sempre atualizada e, se aplicável, assegure-se de que a imagem da sua fabricante esteja atualizada para a versão recomendada pelo crDroid.</string>
+    <string name="trust_feature_security_patches_explain">As atualizações de segurança são lançadas mensalmente pela Google em cooperação com as fabricantes de SoC para corrigir falhas que possam ser exploradas por apps maliciosos que visam burlar as restrições de segurança e causar danos permanentes em seu dispositivo. As atualizações disponibilizadas pela Google são aplicadas mensalmente em todos os dispositivos suportados, mas as atualizações para o código proprietário só podem ser aplicadas pela fabricante do seu dispositivo. Para manter o seu dispositivo seguro, certifique-se de que a sua versão do BaikalOS esteja sempre atualizada e, se aplicável, assegure-se de que a imagem da sua fabricante esteja atualizada para a versão recomendada pelo BaikalOS.</string>
     <string name="trust_feature_encryption">Criptografia</string>
     <string name="trust_feature_encryption_value_enabled">Ativada</string>
     <string name="trust_feature_encryption_value_nolock">Requer uma tela de bloqueio segura</string>
