@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Nastavenia crDroid</string>
+    <string name="lineageparts_title">Nastavenia BaikalOS</string>
     <string name="loading">Nahrávanie\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">Zrušiť</string>
@@ -470,7 +470,7 @@
     <string name="trust_feature_security_patches_value_new">Aktuálne</string>
     <string name="trust_feature_security_patches_value_medium">Staré niekoľko mesiacov</string>
     <string name="trust_feature_security_patches_value_old">Neaktuálne</string>
-    <string name="trust_feature_security_patches_explain">Bezpečnostné záplaty sú vydávané mesačne spoločnosťou Google a dodávateľmi SoC na riešenie nedostatkov v systéme, ktoré by mohli byť zneužiť škodlivými aplikáciami na obídenie bezpečnostných obmedzení a mohli by spôsobiť dočasné alebo trvalé poškodenie vášho zariadenia.\nZatiaľ čo záplaty platformy sú aktualizované globálne každý mesiac, záplaty OEM dodávateľov sú aktualizované z času na čas.\nAk chcete, aby vaše zariadenie bolo v bezpečí, uistite sa, že vaša zostava crDroid je vždy aktuálna.</string>
+    <string name="trust_feature_security_patches_explain">Bezpečnostné záplaty sú vydávané mesačne spoločnosťou Google a dodávateľmi SoC na riešenie nedostatkov v systéme, ktoré by mohli byť zneužiť škodlivými aplikáciami na obídenie bezpečnostných obmedzení a mohli by spôsobiť dočasné alebo trvalé poškodenie vášho zariadenia.\nZatiaľ čo záplaty platformy sú aktualizované globálne každý mesiac, záplaty OEM dodávateľov sú aktualizované z času na čas.\nAk chcete, aby vaše zariadenie bolo v bezpečí, uistite sa, že vaša zostava BaikalOS je vždy aktuálna.</string>
     <string name="trust_feature_encryption">Šifrovanie</string>
     <string name="trust_feature_encryption_value_enabled">Zapnuté</string>
     <string name="trust_feature_encryption_value_nolock">Je potrebná zabezpečená obrazovka uzamknutia</string>
